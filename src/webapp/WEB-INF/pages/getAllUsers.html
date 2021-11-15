@@ -48,7 +48,7 @@
 <br/>
 <hr/>
 
-<h2>If you want to edit or delete user tap on the name:</h2>
+<h2>If you want to edit or delete user tap on the Name:</h2>
 
 <div th:each="user : ${users}">
     <a th:href="@{/users/{id}(id=${user.getId()})}" th:text="${user.getName()}">user</a>
